@@ -14,7 +14,6 @@ int funTail (int n)
 {
     if (n>0)
     {
-
         funTail(n-1);
         printf("%d ",n);
     }
@@ -23,7 +22,6 @@ int funTail (int n)
 }
 int main()
 {   int x = 3;
-
     funHead(x);
     printf("\n");
     funTail(x);
